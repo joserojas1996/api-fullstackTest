@@ -18,7 +18,7 @@ class ProductResources extends JsonResource
             'id'            => encrypt($this->id),
             'name'          => $this->name,
             'price'         => $this->price,
-            'quantity'      => $this->quantity,
+            'stock'      => $this->stock,
             'provider'      => ProviderResource::make($this->provider),
             'subsidiaries'  => SubsidiaryResources::collection($this->subsidiaries)
         ];

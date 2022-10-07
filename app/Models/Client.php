@@ -7,6 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Client extends Model
 {
+
+    protected $fillable = [
+        'created_at',
+        'updated_at'
+    ];
+
+    protected $with = [
+        'info'
+    ];
+
     /**
      * > The sales() function returns all the sales that belong to the customer
      * 

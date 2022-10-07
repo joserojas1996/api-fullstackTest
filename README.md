@@ -62,3 +62,8 @@ Api Rest para la gestion de ventas. Administra proveedores, clientes, usuarios, 
         php artisan serve
     ```
 12. Ahora debe ingresar en [(http://localhost:8000))](http://localhost:8000) 
+
+13. Para ver la colección de endpoinds y ejemplos de su funcionaliento puede ingresar a la collección de Postman
+
+    Link de colección Postman
+    https://www.postman.com/rojas-developer/workspace/laraveltest/collection/12180152-d4367e70-75f2-4f89-95df-c30e043d8916?action=share&creator=12180152&ctx=documentation

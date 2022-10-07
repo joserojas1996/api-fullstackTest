@@ -18,6 +18,10 @@ class Info extends Model
         'address_id'
     ];
 
+    protected $with = [
+        'address'
+    ];
+
     /**
      * > This function returns the address that belongs to the info user
      * 

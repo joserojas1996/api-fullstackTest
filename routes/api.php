@@ -39,6 +39,9 @@ Route::prefix('v1')->group(function () {
 
         //clients
         Route::get('clients', [ClientController::class, 'index']);
+        Route::post('clients', [ClientController::class, 'store']);
+        Route::put('client/{id}', [ClientController::class, 'update']);
+
 
         // products
         Route::get('products', [ProductController::class, 'index']);
